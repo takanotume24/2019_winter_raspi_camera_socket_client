@@ -10,7 +10,7 @@ import numpy
 import time
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('192.168.0.32', 8485))
+client_socket.connect(('192.168.22.5', 8485))
 connection = client_socket.makefile('wb')
 
 img_counter = 0
